@@ -1,0 +1,39 @@
+.Counter{
+    text-align: center;
+}
+
+.Controls{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.Controls button{
+    background: #378f14;
+    border-style: none;
+    font-size: 20px;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.Controls button:hover{
+    background: #4a962c;
+}
+
+.Controls h1{
+    padding: 0px 15px;
+}
+
+.Button2 button{
+    padding: 10px 22px;
+    background: #378f14;
+    color: #fff;
+    font-size: 16px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.Button2 button:hover{
+    background: #4a962c;
+}
