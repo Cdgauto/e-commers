@@ -1,0 +1,45 @@
+
+.ContainerItems{
+    width: 340px;
+    height: auto;
+    text-align: center;
+    border-radius: 30px;
+    border: outset 4px #44a503;
+    padding:80px 10px;
+    margin: 10px;
+}
+
+header h2{
+    font-size: 40px;
+    font-weight: 800;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.ContainerItems img{
+    width: 300px;
+    height: 310px;
+    
+}
+
+.ContainerItems section{
+    font-size: 18px;
+}
+
+
+footer button{
+    background: #44a503;
+    border: none;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 4px;
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #5be002;
+    
+}
