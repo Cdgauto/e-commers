@@ -1,0 +1,29 @@
+article.ItemCard{
+    width: 100%;
+    height: auto;
+    background: #111;
+    padding: 30px;
+}
+
+.ItemContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    text-align: center;
+}
+
+.ItemContainer header h2{
+    color: #fff;
+    padding: 10px;
+}
+
+.ItemContainer picture img{
+    width: 400px;
+    height: 410px;
+}
+
+.ItemContainer section p{
+    color: #fff;
+    padding: 5px;
+}

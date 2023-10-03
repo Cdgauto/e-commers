@@ -1,10 +1,11 @@
 import React from 'react'
 import ItemCount from '../ItemCount/ItemCount'
+import '../ItemDetail/ItemDetail.css'
 
 const ItemDetail = ({id, name, img, category, description, price, stock}) => {
   return (
-    <article className='CardItem'>
-       <div className='ContainerItems'>
+    <article className='ItemCard'>
+       <div className='ItemContainer'>
             <header className='Header'>
                 <h2>
                     {name}
@@ -24,7 +25,7 @@ const ItemDetail = ({id, name, img, category, description, price, stock}) => {
                     Precio: {price}$
                 </p>
             </section>
-            <footer className='ItemFooter'>
+            <footer className='FooterItem'>
                 <ItemCount initial={1} stock={10} onAdd={(quantity) => console.log("Cantidad agregada ", quantity)}/>
             </footer>
        </div>

@@ -22,12 +22,12 @@ const products = [
 
     {
         id: '3',
-        name:'Iphone X',
-        price: 121000,
-        category: 'Celular',
-        img:'https://todoapplecaba.com.ar/wp-content/uploads/2021/05/apple-iphone-x-64gb-silver-used-20191122085356800-_w500_1-8532858c58bff3411615996662135414-640-0.jpg',
+        name:'Ipad Apple 10th',
+        price: 221000,
+        category: 'Ipad',
+        img:'https://http2.mlstatic.com/D_NQ_NP_764857-MLA52988770506_122022-O.webp',
         stock: 10,
-        decription:'Descripcion de Iphone X', 
+        description:'Descripcion de Ipad', 
     },
 
 ]
